@@ -3,7 +3,6 @@ import { Container, Header, Form, FormError } from './styles'
 import { ArrowRight } from '@phosphor-icons/react'
 import { useForm } from 'react-hook-form'
 import { z } from 'zod'
-import { type } from 'os'
 import { zodResolver } from '@hookform/resolvers/zod'
 
 const registerFormSchema = z.object({
