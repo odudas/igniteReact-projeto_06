@@ -1,4 +1,4 @@
-import { Box, styled } from '@ignite-ui/react'
+import { Box, Text, styled } from '@ignite-ui/react'
 
 export const ConnectBox = styled(Box, {
   display: 'flex',
@@ -12,6 +12,11 @@ export const ConnectItem = styled('div', {
   borderRadius: '#md',
   display: 'flex',
   justifyContent: 'space-between',
-  marginBottom: '$2',
+  marginBottom: '$4',
   padding: '$16 $24',
+})
+
+export const AuthError = styled(Text, {
+  color: '#F75A68',
+  marginBottom: '$4',
 })
